@@ -57,6 +57,22 @@ figure {
   padding-right: 1rem;
 }
 
+.presentation__btn {
+  background-color: #6d6b6b;
+  color: #fff;
+  padding: 1rem 1.75rem;
+  border-radius: 100px;
+  font-size: 1.1rem;
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  box-shadow: 0px 5px 5px #b4b4b4;
+  transition-duration: 400ms;
+  cursor: pointer;
+}
+.presentation__btn:hover {
+  background-image: linear-gradient(0deg, #a16be0, #ff93e1);
+  box-shadow: 0px 5px 5px #818181;
+}
+
 .localisation {
   display: flex;
   justify-content: center;
@@ -65,7 +81,6 @@ figure {
 }
 .localisation__icon {
   margin-right: 1rem;
-  margin-top: 20px;
 }
 .localisation__text {
   color: #2b2e2c;
