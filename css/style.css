@@ -2,4 +2,15 @@ h1, h2, h3, h4, p, a, span {
   font-family: "roboto", sans-serif;
 }
 
+.header {
+  font-family: shrikhand;
+  text-align: center;
+  position: relative;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.header div {
+  margin: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
