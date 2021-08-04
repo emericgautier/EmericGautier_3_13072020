@@ -1,0 +1,15 @@
+.localisation {
+    display: flex;
+    justify-content: center;
+    background-color: $color-background;
+    padding: 1rem 0;
+
+    &__icon {
+        margin-right: 1rem;
+        margin-top: 20px;
+    }
+
+    &__text {
+        color: #2b2e2c;
+    }
+}

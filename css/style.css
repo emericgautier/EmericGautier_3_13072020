@@ -2,15 +2,29 @@ h1, h2, h3, h4, p, a, span {
   font-family: "roboto", sans-serif;
 }
 
-.header {
+.logo {
   font-family: shrikhand;
   text-align: center;
   position: relative;
   padding: 1rem;
   font-size: 2rem;
 }
-.header div {
+.logo div {
   margin: auto;
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  background-color: #e7e7e7;
+  padding: 1rem 0;
+}
+.localisation__icon {
+  margin-right: 1rem;
+  margin-top: 20px;
+}
+.localisation__text {
+  color: #2b2e2c;
 }
 
 /*# sourceMappingURL=style.css.map */
