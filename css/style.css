@@ -27,4 +27,21 @@ h1, h2, h3, h4, p, a, span {
   color: #2b2e2c;
 }
 
+/***************** Presentation ********************/
+.presentation {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 2rem;
+}
+.presentation__title {
+  font-family: "roboto", sans-serif;
+}
+.presentation__subtitle {
+  margin-top: 1rem;
+  font-weight: lighter;
+}
+.presentation__container {
+  margin: 3rem auto;
+}
+
 /*# sourceMappingURL=style.css.map */

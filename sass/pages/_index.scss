@@ -13,3 +13,24 @@
         color: #2b2e2c;
     }
 }
+
+/***************** Presentation ********************/
+
+.presentation {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 2rem;
+
+    &__title {
+        font-family: 'roboto', sans-serif;
+    }
+
+    &__subtitle {
+        margin-top: 1rem;
+        font-weight: lighter;
+    }
+
+    &__container {
+        margin: 3rem auto;
+    }
+}
