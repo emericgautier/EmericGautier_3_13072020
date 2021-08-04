@@ -2,6 +2,26 @@ h1, h2, h3, h4, p, a, span {
   font-family: "roboto", sans-serif;
 }
 
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+ol, ul {
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+
 .logo {
   font-family: shrikhand;
   text-align: center;
@@ -11,6 +31,30 @@ h1, h2, h3, h4, p, a, span {
 }
 .logo div {
   margin: auto;
+}
+
+.footer {
+  background-color: #333333;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  padding: 1.5rem;
+  line-height: 2;
+}
+.footer__logo {
+  font-family: "shrikhand", sans-serif;
+  font-size: 1.2rem;
+}
+.footer__list {
+  color: inherit;
+  list-style: none;
+}
+.footer__list a {
+  color: white;
+}
+.footer__list a i {
+  width: 1rem;
+  padding-right: 1rem;
 }
 
 .localisation {

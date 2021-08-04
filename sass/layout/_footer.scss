@@ -1,0 +1,28 @@
+.footer {
+    background-color: lighten(black, 20);
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 1.5rem;
+    line-height: 2;
+
+    &__logo {
+        font-family: "shrikhand", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    &__list {
+        color: inherit;
+        list-style: none;
+
+        a {
+            color: white;
+
+            i {
+                width: 1rem;
+                padding-right: 1rem;
+
+            }
+        }
+    }
+}
