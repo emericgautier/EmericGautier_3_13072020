@@ -226,4 +226,11 @@ figure {
   font-weight: lighter;
 }
 
+.menuImg {
+  width: 100%;
+  max-width: 100%;
+  max-height: 32rem;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
