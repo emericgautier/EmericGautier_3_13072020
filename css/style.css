@@ -22,15 +22,24 @@ figure {
   margin: 0;
 }
 
-.logo {
+.header {
   font-family: shrikhand;
   text-align: center;
   position: relative;
   padding: 1rem;
   font-size: 2rem;
 }
-.logo div {
+.header div {
   margin: auto;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header__arrow {
+  color: black;
 }
 
 .footer {

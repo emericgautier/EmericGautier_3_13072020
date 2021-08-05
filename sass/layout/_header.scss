@@ -1,4 +1,4 @@
-.logo {
+.header {
     font-family: shrikhand;
     text-align: center;
     position: relative;
@@ -8,5 +8,19 @@
     div {
         margin: auto;
     }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    &__arrow {
+        color: black;
+    }
   }
+
+
+
 
