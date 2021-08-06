@@ -351,6 +351,9 @@ figure {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.item__description {
+  font-weight: 300;
+}
 .item__price {
   display: flex;
   align-items: flex-end;

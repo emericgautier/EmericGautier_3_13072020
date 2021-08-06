@@ -89,6 +89,10 @@
         overflow: hidden;
     }
 
+    &__description {
+        font-weight: 300;
+    }
+
     &__price {
         display: flex;
         align-items: flex-end;
