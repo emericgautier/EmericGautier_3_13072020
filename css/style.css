@@ -288,7 +288,7 @@ figure {
   width: 5rem;
 }
 .loader__item {
-  animation: jump 1s;
+  animation: jump 2s;
   width: 1rem;
   height: 1rem;
   border-radius: 1rem;
@@ -388,9 +388,8 @@ figure {
   overflow: hidden;
   cursor: pointer;
   animation: itemAppear 0.6s;
-  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
+  animation-timing-function: ease-in-out;
   animation-fill-mode: both;
-  transform: scale(0);
   max-width: 100%;
 }
 .item__header {
@@ -444,10 +443,12 @@ figure {
 
 @keyframes itemAppear {
   0% {
-    transform: scale(0);
+    transform: translateY(2.5rem);
+    opacity: 0;
   }
   100% {
     transform: scale(1);
+    opacity: 100%;
   }
 }
 .delay--0 {
@@ -455,35 +456,35 @@ figure {
 }
 
 .delay--1 {
-  animation-delay: 0.1s;
-}
-
-.delay--2 {
   animation-delay: 0.2s;
 }
 
-.delay--3 {
-  animation-delay: 0.3s;
-}
-
-.delay--4 {
+.delay--2 {
   animation-delay: 0.4s;
 }
 
-.delay--5 {
-  animation-delay: 0.5s;
-}
-
-.delay--6 {
+.delay--3 {
   animation-delay: 0.6s;
 }
 
+.delay--4 {
+  animation-delay: 0.8s;
+}
+
+.delay--5 {
+  animation-delay: 1s;
+}
+
+.delay--6 {
+  animation-delay: 1.2s;
+}
+
 .delay--7 {
-  animation-delay: 0.7s;
+  animation-delay: 1.4s;
 }
 
 .delay--8 {
-  animation-delay: 0.8s;
+  animation-delay: 1.6s;
 }
 
 /*# sourceMappingURL=style.css.map */
