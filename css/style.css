@@ -148,6 +148,7 @@ figure {
 .presentation__subtitle {
   margin-top: 1rem;
   font-weight: lighter;
+  font-size: 1.3rem;
 }
 .presentation__container {
   margin: 3rem auto;
