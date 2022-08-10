@@ -1,5 +1,5 @@
 ## Projet 3 - Ohmyfood!
-_Projet  de la formation développeur web - OpenClassroom._
+_Projet  de la formation développeur web - OpenClassrooms._
 
 <br />
 
